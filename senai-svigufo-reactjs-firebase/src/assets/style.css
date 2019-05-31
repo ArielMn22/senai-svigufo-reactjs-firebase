@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cadastrarForm {
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    color: orange;
+    font-family: 'bahnschrift';
+    align-items: center;
+
+    position: fixed;
+    width: 100%;
+    /* min-height: 500px; */
+    height: 20vh;
+    bottom: 0;
+    border-top:4px solid #17EF00;
+}
+
+#listaEventos {
+    background-color: #1a1a1a;
+    color: orange;
+    font-family: 'bahnschrift';
+    height: 80vh;
+    overflow-y: auto;
+}
+
+#header {
+    background-color: orange;
+    color: #1a1a1a;
+}
+
+.listaEventosItem > * {
+    margin: 20px 0;
+}
+
+.evento {
+    border-bottom: 4px solid orange;
+}
+
+.btn-orange {
+    background-color: #1a1a1a;
+    border: 1px solid #17EF00;
+    border-radius: 5px;
+    color: #17EF00;
+    padding: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family: "bahnschrift";
+    transition: all .3s;
+}
+
+.btn-orange:hover {
+    background-color: #17EF00;
+    color: #1a1a1a;
+}
